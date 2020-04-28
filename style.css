@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Montserrat&display=swap');
+body{
+    background-color: #1D3827;
+    border: 3vh solid;
+    border-color: rgb(139,99,60);
+    height:100vh;
+    border-style: groove;
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    color: white;
+}
+.navbar{
+    background-color: gray;
+    position: fixed;
+    bottom: 3vh;
+    width: 96.7%;
+}
+.btn{
+    width: 50vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.send{
+    background-color: #E1EEC2;
+}
+.receive{
+    background-color: #E1F2FA;
+}
+form{
+    font-family: 'Montserrat', sans-serif;
+    color: #E1EEC2;
+    height: 50vh;
+}
+#message{
+    height: 15vh;
+    font-size: 30px;
+}
+input{
+    background: none !important;
+    font-family: 'Homemade Apple', cursive;
+    color: #E1EEC2 !important;
+    text-align: center;
+}
+small{
+    color: white !important;
+}
+h1{
+    margin:3%;
+    color: #FAE3EA;
+}
+h2{
+    font-style: italic;
+    font-size: 60px;
+}
+.receivePage{
+    color: #E1F2FA !important;
+}
+.sendPage{
+    margin-top: -15vh;
+    height: 90vh;
+}
