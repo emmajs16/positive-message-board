@@ -37,6 +37,8 @@ function receive() {
         });
     })
     setTimeout(function() {
+        document.getElementById("displayMessage").innerHTML = ""
+        document.getElementById("displayName").innerHTML = ""
         console.log(allMessages)
         console.log(allMessages.length)
         // var num = Math.random()
@@ -45,7 +47,7 @@ function receive() {
         console.log(allMessages[num])
         document.getElementById("displayMessage").innerHTML = allMessages[num][1]
         document.getElementById("displayName").innerHTML = "- " + allMessages[num][0]
-    }, 1000)
+    }, 500)
 
 }
 
@@ -62,5 +64,7 @@ function submit() {
         .catch(function(error) {
             console.error("Error writing document: ", error);
         });
+        var message = document.getElementById("message").value = ""
+        var name = document.getElementById("name").value = ""
 
 }
